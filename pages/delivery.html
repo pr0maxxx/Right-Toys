@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Доставка заказов</title>
+    <link
+      rel="icon"
+      type="img/png"
+      href="C:/Users/Maksim/Desktop/www/img/favicon.png"
+      sizes = "16x16"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/common_style.css">     
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/delivery.css">
+    <script src="https://kit.fontawesome.com/1317bdbbb8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id = "check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">
+                    <a href="../index.html">Right Toys</a>
+                </label>
+                <ul class="nav-items">
+                    <li>
+                        <a href="catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Оплата и доставка</a>
+                    </li>
+                    <li>
+                        <a href="about.html">О нас</a>
+                    </li>
+                </ul>
+                <input type="checkbox" id="cart">
+                <label for="cart" class="cartbtn">
+                    <div id="mark-cartbtn"></div>
+                    <i class="fas fa-shopping-cart"></i>
+
+                </label>
+                <div class="cart-items">
+                    <div class="cart-items-background">
+
+                    </div>
+                    <div class="cart-items-list">
+                        <div class="list-header">
+                            <h3>Ваша корзина</h3>
+                            <label for="cart" class="cartbtnclose">
+                                <i class="fas fa-times"></i>
+                            </label>
+                        </div>
+                        <div class="empty-list-state">
+                            Пока что корзина пуста. 
+                            <a href = "pages/catalog.html">Добавить товары?</a>
+                        </div>
+                        <div class="list">
+                        </div>
+                    </div>
+                </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <h1>Доставка заказа</h1>
+    <p>Каждую игрушку мы упаковываем в гофро-коробку и при необходимости дополняем наполнителем, чтобы вы 
+        получили заказ в том виде, в каком ожидаете, или даже лучше. Такая упаковка придаст вашему подарку 
+        современный вид и будет безопасна для природы после ее использования. </p>
+    <div class="delivery-container line">
+            <div class="card">
+                <div class="box">
+                  <div class="content">
+                    <h3>Курьером</h3>
+                    <p>
+                      Курьерская доставка возможна по Москве и МО. Стоимость доставки: 350 руб. - в пределах МКАД, 
+                      450 руб - МКАД + 25 км. Предварительные время и дату доставки нужно указывать в комментариях к заказу.
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="box">
+                  <div class="content">
+                    <h3>Самовывоз</h3>
+                    <p>
+                        Самовывоз возможен только в городе Москва:<br>
+                        от ст.м. Чкаловская, ул. Земляной Вал 33, ТЦ "Атриум" с 10:00 до 20.00
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="box">
+                  <div class="content">
+                    <h3>Почтой России</h3>
+                    <p>
+                        Посылка - 450 рублей. Средний срок доставки 6-14 рабочих дней.
+                    </p>
+                  </div>
+                </div>
+              </div>
+    </div>
+    <h1>Оплата заказа</h1>
+    <div class="delivery-container">
+            <div class="card">
+                <div class="box">
+                  <div class="content">
+                    <h3>Банковской картой</h3>
+                    <p>
+                        Вы можете оплатить заказ в нашем интернет-магазине банковской картой. 
+                        Для этого Вам необходимо выбрать соответсвующий вариант оплаты. Оплата 
+                        производится непосредственно при оформлении заказа на сайте.
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="box">
+                  <div class="content">
+                    <h3>Наличные</h3>
+                    <p>
+                        Оплата заказа осуществляется при доставке товара наличными курьеру или 
+                        на пункте выдачи заказов при получении заказа.
+                    </p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="card">
+                <div class="box">
+                  <div class="content">
+                    <h3>Для юридических лиц</h3>
+                    <p>
+                        Счет выставляется менеджером при подтверждении заказа. После выставления
+                        счета товар резервируется на складе на 3 дня рабочих дня. В течение этого
+                        времени необходимо оплатить товар и сообщить менеджеру об оплате.
+                    </p>
+                  </div>
+                </div>
+              </div>
+    </div>
+
+
+
+    <div class="footer-container">
+        <div class="wrapper">
+        <footer>
+            <div class="footer-table">
+                <ul class="footer-column">
+                    <div class="logo">
+                        Right Toys
+                    </div>
+                </ul>
+                <ul class="footer-column">
+                    <li>
+                        <h3>Быстрая навигация</h3>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Оплата и доставка</a>
+                    </li>
+                    <li>
+                        <a href="about.html">О нас</a>
+                    </li>
+                </ul>
+                <ul class="footer-column" id = "contacts">
+                    <li>
+                        <h3>Контакты:</h3>
+                    </li>
+                    <li>
+                        Часы работы:
+                    </li>
+                    <li>
+                        10:00 - 20:00
+                    </li>
+                    <li>
+                       Телефон для связи:
+                    </li>
+                    <li>
+                        <a href="#">Т: +7(999)-666-33-11</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>

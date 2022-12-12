@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О нас</title>
+    <link
+      rel="icon"
+      type="img/png"
+      href="C:/Users/Maksim/Desktop/www/img/favicon.png"
+      sizes = "16x16"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/common_style.css">      
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/about.css">
+    <script src="https://kit.fontawesome.com/1317bdbbb8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+    <div class="nav-container">
+        <div class="wrapper">
+            <nav>
+                <input type="checkbox" id = "check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">
+                    <a href="../index.html">Right Toys</a>
+                </label>
+                <ul class="nav-items">
+                    <li>
+                        <a href="catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="delivery.html">Оплата и доставка</a>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                </ul>
+                <input type="checkbox" id="cart">
+                <label for="cart" class="cartbtn">
+                    <div id="mark-cartbtn"></div>
+                    <i class="fas fa-shopping-cart"></i>
+
+                </label>
+                <div class="cart-items">
+                    <div class="cart-items-background">
+
+                    </div>
+                    <div class="cart-items-list">
+                        <div class="list-header">
+                            <h3>Ваша корзина</h3>
+                            <label for="cart" class="cartbtnclose">
+                                <i class="fas fa-times"></i>
+                            </label>
+                        </div>
+                        <div class="empty-list-state">
+                            Пока что корзина пуста. 
+                            <a href = "catalog.html">Добавить товары?</a>
+                        </div>
+                        <div class="list">
+                        </div>
+                    </div>
+                </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+   
+    <div class="about-contaner">
+        <div class="wrapper">
+            <section class="about-content">
+                <h1>Почему именно мы?</h1>
+                <h2>Наша философия</h2>
+                <p>В Right-Toys мы серьезно относимся к развлечениям и получаем от этого 
+                серьезное удовольствие! Наши игрушки созданы для того, чтобы развивать чувства,
+                и содержат множество открытий для молодого, растущего воображения.</p>
+                <div class="img-container" id="heart-img"></div>
+                <h2>Уникальность</h2>
+                <p>Большая часть наших игрушек открытого типа. Нет правил и шаблонов. 
+                Ребенок играет с ними, как чувствует. И пока создаёт особенный выдуманный мир. 
+                Но совсем скоро он создаст собственное будущее, где проявит настоящего себя.</p>
+                <div class="img-container" id="unique-img"></div>
+                <h2>С заботой о мире</h2>
+                <p>Для нас важна этичность производства: мы используем только натуральное дерево. Мы надеемся, 
+                что наше отношение послужит хорошим примером для детей, из которых вырастет новое поколение.
+                Деревянные игрушки поддаются биологическому разложению и созданы на основе выдумки, 
+                так что творчество ребенка делает все возможное. Они более долговечны, чем их пластиковые аналоги.</p>
+                <div class="img-container" id="ecology-img"></div>
+            </section>
+        </div>
+    </div>
+ 
+
+
+    <div class="footer-container">
+        <div class="wrapper">
+        <footer>
+            <div class="footer-table">
+                <ul class="footer-column">
+                    <div class="logo">
+                        Right Toys
+                    </div>
+                </ul>
+                <ul class="footer-column">
+                    <li>
+                        <h3>Быстрая навигация</h3>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="delivery.html">Оплата и доставка</a>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                </ul>
+                <ul class="footer-column" id = "contacts">
+                    <li>
+                        <h3>Контакты:</h3>
+                    </li>
+                    <li>
+                        Часы работы:
+                    </li>
+                    <li>
+                        10:00 - 20:00
+                    </li>
+                    <li>
+                       Телефон для связи:
+                    </li>
+                    <li>
+                        <a href="#">Т: +7(999)-666-33-11</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>
